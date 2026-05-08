@@ -59,7 +59,7 @@ contacts = [
     ("Julissa Samuels", "Gerente de aplica...", "American Sportswear, S.A."),
     ("Brent Sandberg", "Project Manager, Business Transf...", "Carmeuse"),
     ("Sachin Sangle", "VP", "ImpactQA"),
-    ("Marco Sanna", "", "cbs Corporate Business Solutions Unternehm..."),
+    # Marco Sanna omitted — already in attendees.xlsx from previous session
     ("KATSUYUKI SHINZEKI", "Assistant Manager", "Marubeni Corporation"),
     ("JASBIR SINGH", "Associate Partner, Global...", "IBM India Pvt Ltd"),
 ]
