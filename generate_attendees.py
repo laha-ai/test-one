@@ -1157,6 +1157,16 @@ attendees = [
     ('Barry Emptage', 'Director, SAP E…', 'RHOMBI HOLDINGS LIMITED'),
     ('Martha Enriquez Carrola', 'Customer Engagement and Ado…', 'SAP Mexico'),
     ('Lander Errasti', 'Director', 'BFS Ingenieria Aplicada S.A. de C.V.'),
+    ('Matt Curtin', 'Account Executive', 'OneRail, Inc.'),
+    ('Thomas Czichowsky', 'Business Consulting Retail | S…', 'Schwarz IT KG'),
+    ('Beth clarkin', 'Director…', 'True Commerce Inc. TrueCommerce'),
+    ('Nick DAVIS', 'Global Process Owner Order…', 'Elanco US Inc.'),
+    ('Abdelhalim Dadouche', 'SAP Product Specialist', 'Databricks Inc.'),
+    ('Chung DaeYoung', 'Head of Enterprise 2', 'SAP Korea Limited'),
+    ("Gerardo Dall'Orso", 'Director', 'ADECO AGROPECUARIA S.A.'),
+    ('Madhu Raju Dandu', 'Director, Dig…', 'RELEASEOWL PRIVATE LIMITED'),
+    ('Nicolas Daniels', 'Global Account Director', 'Mediafly'),
+    ('Sushovan Datta', 'Vice President', 'Tech Mahindra (americas) Inc.'),
 ]
 
 wb = Workbook()
