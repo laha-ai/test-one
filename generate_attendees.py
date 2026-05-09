@@ -1183,8 +1183,60 @@ for cell in ws[1]:
     cell.fill = header_fill
     cell.alignment = Alignment(horizontal="left", vertical="center")
 
+BIG4_KEYWORDS = [
+    "deloitte", "kpmg", "pricewaterhousecoopers", "pwc",
+    "ernst & young", "ey global", "ey strategy", "ey u.s.",
+]
+DEAL_ADVISOR_KEYWORDS = [
+    "mckinsey", "bain & company", "boston consulting", "bcg",
+    "bearingpoint", "grant thornton", "lazard", "houlihan lokey",
+    "moelis", "evercore", "rothschild", "jefferies", "centerview",
+    "greenhill", "guggenheim partners", "j.p morgan", "j.p. morgan",
+    "jpmorgan", "morgan stanley", "goldman sachs",
+]
+RETAIL_CPG_KEYWORDS = [
+    # Retail
+    "walgreens", "autozone", "wayfair", "home depot", "petsmart",
+    "aritzia", "h mart", "crocs", "kontoor brands", "varsity brands",
+    "ahold delhaize", "bsn sports", "sharp electronics",
+    "sharp corporation", "ralph lauren", "best buy", "walmart",
+    "kroger", "costco", "macy", "nordstrom", "lowe's",
+    "gardner white furniture", "bob's discount furniture",
+    # CPG / Food & Beverage
+    "hershey", "pepsico", "tyson foods", "bachoco", "mars",
+    "kellanova", "ocean spray", "blommer chocolate", "marathon cheese",
+    "maryland & virginia milk", "florida crystals", "associated feed",
+    "lakeview farms", "performance food group", "cheney bros",
+    "ball horticultural", "colgate", "procter", "unilever",
+    "coca-cola", "nestle", "nestlé", "conagra", "constellation brands",
+    "sylvamo", "jbs usa", "h-e-b", "danone",
+]
+
+
+def category(company: str):
+    c = (company or "").lower()
+    if any(k in c for k in BIG4_KEYWORDS):
+        return "big4"
+    if any(k in c for k in DEAL_ADVISOR_KEYWORDS):
+        return "deal_advisor"
+    if any(k in c for k in RETAIL_CPG_KEYWORDS):
+        return "retail_cpg"
+    return None
+
+
+CATEGORY_FILLS = {
+    "retail_cpg": PatternFill(start_color="FFF9C4", end_color="FFF9C4", fill_type="solid"),
+    "big4": PatternFill(start_color="FFCDD2", end_color="FFCDD2", fill_type="solid"),
+    "deal_advisor": PatternFill(start_color="BBDEFB", end_color="BBDEFB", fill_type="solid"),
+}
+
 for row in attendees:
     ws.append(row)
+    cat = category(row[2])
+    if cat:
+        fill = CATEGORY_FILLS[cat]
+        for cell in ws[ws.max_row]:
+            cell.fill = fill
 
 ws.column_dimensions["A"].width = 32
 ws.column_dimensions["B"].width = 42
