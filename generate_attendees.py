@@ -1211,6 +1211,12 @@ RETAIL_CPG_KEYWORDS = [
     "coca-cola", "nestle", "nestlé", "conagra", "constellation brands",
     "sylvamo", "jbs usa", "h-e-b", "danone",
 ]
+RETAIL_CPG_OVER_5B_KEYWORDS = [
+    "the home depot", "walgreens", "ahold delhaize", "pepsico",
+    "jbs usa", "performance food group", "tyson foods", "kellanova",
+    "mars", "sharp corporation", "sharp electronics", "colgate",
+    "autozone", "wayfair", "hershey", "petsmart",
+]
 
 
 def category(company: str):
@@ -1219,6 +1225,8 @@ def category(company: str):
         return "big4"
     if any(k in c for k in DEAL_ADVISOR_KEYWORDS):
         return "deal_advisor"
+    if any(k in c for k in RETAIL_CPG_OVER_5B_KEYWORDS):
+        return "retail_cpg_over_5b"
     if any(k in c for k in RETAIL_CPG_KEYWORDS):
         return "retail_cpg"
     return None
@@ -1226,6 +1234,7 @@ def category(company: str):
 
 CATEGORY_FILLS = {
     "retail_cpg": PatternFill(start_color="FFF9C4", end_color="FFF9C4", fill_type="solid"),
+    "retail_cpg_over_5b": PatternFill(start_color="C8E6C9", end_color="C8E6C9", fill_type="solid"),
     "big4": PatternFill(start_color="FFCDD2", end_color="FFCDD2", fill_type="solid"),
     "deal_advisor": PatternFill(start_color="BBDEFB", end_color="BBDEFB", fill_type="solid"),
 }
