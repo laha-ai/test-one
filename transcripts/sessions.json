@@ -456,12 +456,17 @@
         "company": "Sam's Club"
       }
     ],
-    "moderators": [],
+    "moderators": [
+      {
+        "name": "Chris Walton",
+        "title": "President & CEO",
+        "company": "Omni Talk"
+      }
+    ],
     "sponsors": [],
     "transcript": null,
     "notes_status": "transcript to follow",
-    "title": "How Sam's Club Resonates with Consumers Demanding Value",
-    "speakers_note": "The screenshot ends after this speaker; any other speakers or moderator were not shown."
+    "title": "How Sam's Club Resonates with Consumers Demanding Value"
   },
   {
     "date": "2026-09-23",
