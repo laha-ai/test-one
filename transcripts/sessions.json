@@ -45,8 +45,17 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow"
+    "transcript": {
+      "raw": "raw/instacart.txt"
+    },
+    "notes_status": "transcript available",
+    "takeaways": [
+      "Instacart is positioning itself as an “operating system for grocery”: its storefront technology powers 380 grocery e-commerce sites, and retailers can take the full stack (e.g. Sprouts) or single modules (e.g. Kroger uses it for fulfilment only).",
+      "Affordability is the top barrier to online grocery. Retailers without online markups grow about 10 points faster on Instacart; Instacart+ offers $0 delivery from $10, plus pickup and no-rush options.",
+      "AI will transform grocery more than any other category: Clementine (consumer) and Cart Assistant (white label for retailers); integrations with Anthropic, OpenAI and Gemini, but the best agentic experiences should live on owned channels.",
+      "New software turns the physical shelf into a real-time digital view; the retail media network keeps adding partners."
+    ],
+    "transcript_note": "The recording starts partway through the first answer."
   },
   {
     "date": "2026-09-22",
@@ -70,8 +79,18 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow"
+    "transcript": {
+      "raw": "raw/kroger.txt"
+    },
+    "notes_status": "transcript available",
+    "takeaways": [
+      "AI's biggest omnichannel impact is removing the seam between digital and physical: customers have needs and occasions, not channels.",
+      "Principles before deploying AI: prove customer value first, ground it in trusted first-party data, keep a human in the loop; the data layer is the one thing not to compromise.",
+      "An internal AI gateway orchestrates Kroger's own models alongside frontier-model partners, keeping flexibility rather than picking a winner.",
+      "The AI shopping assistant builds baskets from context such as handwritten recipes; adoption is spread across all customer segments and baskets are larger, not smaller.",
+      "Behind the shelf, replenishment is autonomous; every associate can get an “AI driver's license”."
+    ],
+    "transcript_note": "The transcript begins with the host's hand-over from the previous (Instacart) session."
   },
   {
     "date": "2026-09-22",
@@ -132,8 +151,17 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow"
+    "transcript": {
+      "raw": "raw/personalization.txt"
+    },
+    "notes_status": "transcript available",
+    "takeaways": [
+      "Publicis Sapient: 1:1 personalisation is now feasible with AI agents orchestrating across touchpoints, but reinventing how the work is done matters as much as the technology, and not everything needs an agent.",
+      "Albertsons uses embeddings and a conversational assistant that builds baskets within budget and other constraints; track leading and lagging metrics separately.",
+      "illy is still mostly segmentation (now about 100 segments) and is moving towards context-based personalisation, with a dedicated customer experience office.",
+      "A delivery-platform panelist reports about 2 million extra monthly orders from personalisation and features now built and shipped in a day."
+    ],
+    "speakers_note": "In the transcript, the third panelist is from a delivery platform, not Kroger Precision Marketing; Nick Hamilton may not have spoken. To confirm."
   },
   {
     "date": "2026-09-24",
@@ -302,10 +330,18 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
+    "transcript": {
+      "raw": "raw/fulfillment.txt"
+    },
+    "notes_status": "transcript available",
     "title": "Title TBC: Grocery ecommerce fulfillment session",
-    "title_note": "Title, date, time and stage not shown in the screenshot; the About text begins “Grocery ecommerce is seeing significant growth, yet fulfillment and delivery costs continue to hinder profitability.”"
+    "title_note": "Title, date, time and stage not shown in the screenshot; the About text begins “Grocery ecommerce is seeing significant growth, yet fulfillment and delivery costs continue to hinder profitability.”",
+    "takeaways": [
+      "AlixPartners: grocers' omnichannel share keeps rising while earnings fall; same-day delivery is table stakes, and cost is the top concern for fulfilment executives.",
+      "Migros (online since 1997, about 23% online share) never offered free delivery and reached e-commerce profitability after six loss-making years; about 60% of orders are ultra-fast (under 30 minutes).",
+      "Picking-cost levers at Migros: bonus structures, store layout and back-room mini dark stores, pick-to-light and cobots; biggest wish is ending items stuck in the back room.",
+      "Mercado Libre measures grocery on customer lifetime value across categories; robotics lifted picking productivity by 300%; biggest wish is better inventory placement."
+    ]
   },
   {
     "date": "2026-09-23",
@@ -328,10 +364,18 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
+    "transcript": {
+      "raw": "raw/doordash.txt"
+    },
+    "notes_status": "transcript available",
     "title": "How DoorDash Crafts AI-Powered Shopping Experiences",
-    "speakers_note": "The app shows Zia Daniell Wigder’s title and organisation in swapped fields (“Hyve Group” as title); they are shown here in the usual columns."
+    "speakers_note": "The app shows Zia Daniell Wigder’s title and organisation in swapped fields (“Hyve Group” as title); they are shown here in the usual columns.",
+    "takeaways": [
+      "Costco is now on DoorDash, bringing all top-10 US grocers to the platform; SNAP/EBT is supported at over 75,000 stores.",
+      "Ask DoorDash (launched June): about 50% larger grocery carts, 5x faster checkout and 60% more unique items versus non-AI orders, with cross-store inventory checks.",
+      "Retailers' no-regrets move is clean catalogue and inventory data; Dasher shelf photos feed back to retailers, and a new Brand Center gives brands stock and performance data.",
+      "AI should make purchasing more frictionless, not take the decision away from the customer."
+    ]
   },
   {
     "date": "2026-09-23",
@@ -354,9 +398,17 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
-    "title": "Beyond Category Lines: How Unilever Serves the New Wellbeing Consumer"
+    "transcript": {
+      "raw": "raw/unilever.txt"
+    },
+    "notes_status": "transcript available",
+    "title": "Beyond Category Lines: How Unilever Serves the New Wellbeing Consumer",
+    "takeaways": [
+      "Three shifts drove Unilever Wellbeing: health as a lifestyle, the convergence of beauty and wellbeing, and the digitisation of everything.",
+      "The portfolio is about 50/50 online and in store; Unilever ran 17 clinical studies in 2025 and sees LLMs as a way to make that science accessible.",
+      "Physical retail still matters: more than half of shoppers prefer to discover products in store, so retailer partnerships stay critical."
+    ],
+    "transcript_note": "A closing passage was repeated in the pasted text; the duplicate was removed."
   },
   {
     "date": "2026-09-23",
@@ -414,9 +466,17 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
-    "title": "Track Keynote: Building a Continuous, End-to-End Supply Chain"
+    "transcript": {
+      "raw": "raw/supply_chain.txt"
+    },
+    "notes_status": "transcript available",
+    "title": "Track Keynote: Building a Continuous, End-to-End Supply Chain",
+    "takeaways": [
+      "BJ's created a Chief Supply Chain Officer role that unifies planning, allocation, distribution, logistics and automation around availability, convenience and value for members.",
+      "One metric matters most: on-shelf availability at the moment the member wants to buy.",
+      "AI approach is “continuous and end to end”, moving towards a self-healing supply chain; shelf-scan data becomes task lists for club leaders, and planners query AI in plain language.",
+      "Adoption is staged (assist, then human-monitored, then agents working together), starting with simple use cases to build trust."
+    ]
   },
   {
     "date": "2026-09-23",
@@ -464,9 +524,18 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
-    "title": "How Sam's Club Resonates with Consumers Demanding Value"
+    "transcript": {
+      "raw": "raw/sams_club.txt"
+    },
+    "notes_status": "transcript available",
+    "title": "How Sam's Club Resonates with Consumers Demanding Value",
+    "takeaways": [
+      "Sam's Club defines value as a quality item worth the price, delivered in a way only Sam's can, with the same prices online and in club.",
+      "Myron Frazier uses a decades-old document from the Walmart archives on what makes a good Sam's Club item as a rubric for merchants (e.g. the item should sell itself).",
+      "Member's Mark is shaped with a member community of 200,000+ people generating around 200,000 activities a month; organics doubled and will double again.",
+      "Advice for suppliers: be clear on the value you offer and listen to member feedback."
+    ],
+    "transcript_note": "The recording opens with the conference announcer's programme update before the interview."
   },
   {
     "date": "2026-09-23",
@@ -499,9 +568,16 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow",
-    "title": "Achieving Omnichannel Success by Unifying the Retail Organization"
+    "transcript": {
+      "raw": "raw/omnichannel.txt"
+    },
+    "notes_status": "transcript available",
+    "title": "Achieving Omnichannel Success by Unifying the Retail Organization",
+    "takeaways": [
+      "Audio quality for this session is poor and much of the transcript is unclear.",
+      "Themes that come through: co-locating e-commerce with marketing and merchandising, giving digital teams dedicated IT/product resources, and prioritising shared roadmaps.",
+      "Rally the whole business, including store leaders, around one e-commerce sales metric reported weekly; use shared language and have leaders experience the channel themselves."
+    ]
   },
   {
     "date": "2026-09-22",
@@ -535,7 +611,84 @@
       }
     ],
     "sponsors": [],
-    "transcript": null,
-    "notes_status": "transcript to follow"
+    "transcript": {
+      "raw": "raw/dietary.txt"
+    },
+    "notes_status": "transcript available",
+    "takeaways": [
+      "Long-running trends (eat less, eat better, positive ingredients over simply removing negatives) are being accelerated by GLP-1s; every bite now has to earn its place.",
+      "Shoppers choose by need rather than category, meal occasions are getting smaller and more frequent, undifferentiated indulgence is suffering, and value exists at every price point.",
+      "Target is turning food into a destination (about 50% more new items this year); Chobani focuses on “truths, not trends”, pairing taste with nutrition.",
+      "Roxberry: kids are the harshest taste testers, and fun still matters in better-for-you products."
+    ],
+    "transcript_note": "The panel section of this recording is partly garbled."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Unmatched: California Pizza Kitchen interview",
+    "unmatched": true,
+    "title_note": "This transcript was in the pasted text but does not match any session card yet. Interview about CPK's brand, frozen grocery business, kiosks and new appetizer line.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "raw/unmatched_cpk.txt"
+    },
+    "notes_status": "unmatched"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Unmatched: AI shopping research presentations (three presenters)",
+    "unmatched": true,
+    "title_note": "This transcript was in the pasted text but does not match any session card yet. Three back-to-back talks on AI shopping: “faster, fewer, further, firmer”, brand visibility in AI referrals, and retailer strategies (Amazon, Walmart, Magalu).",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "raw/unmatched_ai_shopper_talks.txt"
+    },
+    "notes_status": "unmatched"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Unmatched: Sprouts store assist intelligence interview",
+    "unmatched": true,
+    "title_note": "This transcript was in the pasted text but does not match any session card yet. Interview about Sprouts' AI assistant for store team members.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "raw/unmatched_sprouts.txt"
+    },
+    "notes_status": "unmatched"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Unmatched: Consumer insights AI platform session",
+    "unmatched": true,
+    "title_note": "This transcript was in the pasted text but does not match any session card yet. Discussion of a CPG insights team adopting an AI research platform.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "raw/unmatched_insights_platform.txt"
+    },
+    "notes_status": "unmatched"
   }
 ]

@@ -44,8 +44,19 @@ function sortSessions(list) {
 }
 
 // Split a raw transcript at each turn's start phrase; fail loudly if the split is not lossless.
+// Without a turns spec, the text is split into paragraphs of roughly 150 words at sentence ends.
 function loadTranscript(t) {
   const raw = fs.readFileSync(path.join(DIR, t.raw), "utf8").trim();
+  if (!t.turns) {
+    const paragraphs = [];
+    let cur = [];
+    for (const sentence of raw.split(/(?<=[.?!])\s+/)) {
+      cur.push(sentence);
+      if (cur.join(" ").split(/\s+/).length >= 150) { paragraphs.push(cur.join(" ")); cur = []; }
+    }
+    if (cur.length) paragraphs.push(cur.join(" "));
+    return { paragraphs };
+  }
   const spec = JSON.parse(fs.readFileSync(path.join(DIR, t.turns), "utf8"));
   const idx = spec.turns.map((turn) => {
     const i = raw.indexOf(turn.start);
@@ -98,6 +109,7 @@ function table(widths, header, rows, { boldFirstCol = false } = {}) {
 }
 
 function statusLabel(s) {
+  if (s.unmatched) return "Transcript; session not identified";
   return s.transcript ? "Transcript included" : "Transcript to follow";
 }
 
@@ -153,6 +165,17 @@ function sessionSection(s, n, transcript) {
   if (transcript.takeaways?.length) {
     out.push(h(HeadingLevel.HEADING_2, "Key Takeaways"));
     transcript.takeaways.forEach(([b, t]) => out.push(bullet([new TextRun({ text: `${b}: `, bold: true }), new TextRun(t)])));
+  } else if (s.takeaways?.length) {
+    out.push(h(HeadingLevel.HEADING_2, "Key Takeaways"));
+    s.takeaways.forEach((t) => out.push(bullet([new TextRun(t)])));
+  }
+
+  if (transcript.paragraphs) {
+    out.push(h(HeadingLevel.HEADING_2, "Transcript"));
+    out.push(p("Automatic speech-to-text output, kept word for word; not split by speaker.", { size: 18, italics: true, color: "595959" }));
+    if (s.transcript_note) out.push(p(s.transcript_note, { size: 18, italics: true, color: "595959" }));
+    transcript.paragraphs.forEach((t) => out.push(new Paragraph({ spacing: { after: 140, line: 300 }, children: [new TextRun({ text: t, size: 21 })] })));
+    return out;
   }
 
   if (transcript.transcription_notes?.length) {
@@ -189,7 +212,7 @@ const children = coverAndIndex(ordered);
 let turnCount = 0;
 ordered.forEach((s, i) => {
   const transcript = s.transcript ? loadTranscript(s.transcript) : null;
-  if (transcript) turnCount += transcript.turns.length;
+  if (transcript?.turns) turnCount += transcript.turns.length;
   children.push(...sessionSection(s, i + 1, transcript));
 });
 
