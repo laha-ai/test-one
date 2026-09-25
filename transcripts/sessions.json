@@ -210,15 +210,26 @@
     "end": "15:20",
     "timezone": "America/Los_Angeles",
     "stage": "Case Studies Stage",
-    "speakers": [],
-    "moderators": [],
+    "speakers": [
+      {
+        "name": "Bobby Watts",
+        "title": "SVP AD Retail Media, Digital Merc... (truncated in app)",
+        "company": "ADUSA"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Tom Giovingo",
+        "title": "VP, Client Growth and Solutions",
+        "company": "Epsilon"
+      }
+    ],
     "sponsors": [
       "Epsilon"
     ],
     "transcript": null,
     "notes_status": "transcript to follow",
-    "title": "Case Study Session, Sponsored by Epsilon. Ahold Delhaize and the future of retail media: Why offsite and identity are key",
-    "speakers_note": "Speakers not shown in the screenshot"
+    "title": "Case Study Session, Sponsored by Epsilon. Ahold Delhaize and the future of retail media: Why offsite and identity are key"
   },
   {
     "date": "2026-09-24",
@@ -295,5 +306,91 @@
     "notes_status": "transcript to follow",
     "title": "Title TBC: Grocery ecommerce fulfillment session",
     "title_note": "Title, date, time and stage not shown in the screenshot; the About text begins “Grocery ecommerce is seeing significant growth, yet fulfillment and delivery costs continue to hinder profitability.”"
+  },
+  {
+    "date": "2026-09-23",
+    "start": "11:10",
+    "end": "11:30",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "speakers": [
+      {
+        "name": "Andy Fang",
+        "title": "Co-Founder, DoorDash",
+        "company": "DoorDash"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Zia Daniell Wigder",
+        "title": "Co-Founder, Groceryshop; Preside... (truncated in app)",
+        "company": "Hyve Group"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "How DoorDash Crafts AI-Powered Shopping Experiences",
+    "speakers_note": "The app shows Zia Daniell Wigder’s title and organisation in swapped fields (“Hyve Group” as title); they are shown here in the usual columns."
+  },
+  {
+    "date": "2026-09-23",
+    "start": "11:30",
+    "end": "11:50",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "speakers": [
+      {
+        "name": "Jostein Solheim",
+        "title": "CEO, Unilever Wellbeing",
+        "company": "Unilever"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Phil Lempert",
+        "title": "Editor",
+        "company": "The Lempert Report/Supermarket... (truncated in app)"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Beyond Category Lines: How Unilever Serves the New Wellbeing Consumer"
+  },
+  {
+    "date": "2026-09-23",
+    "start": "14:35",
+    "end": "15:15",
+    "timezone": "America/Los_Angeles",
+    "stage": "Snackable Insights Stage",
+    "speakers": [
+      {
+        "name": "Eric Le",
+        "title": "VP Growth Marketing",
+        "company": "Siete Foods"
+      },
+      {
+        "name": "Suman Nag",
+        "title": "Head of Ecommerce",
+        "company": "FreshPet"
+      },
+      {
+        "name": "Peter Sarkis",
+        "title": "VP of Digital Growth",
+        "company": "Pressed Juicery"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Angus McOuat",
+        "title": "Partner",
+        "company": "McKinsey & Company"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Designing a Multichannel Commerce Strategy"
   }
 ]
