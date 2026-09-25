@@ -392,5 +392,75 @@
     "transcript": null,
     "notes_status": "transcript to follow",
     "title": "Designing a Multichannel Commerce Strategy"
+  },
+  {
+    "date": "2026-09-23",
+    "start": "09:50",
+    "end": "10:10",
+    "timezone": "America/Los_Angeles",
+    "stage": "Capsule Stage",
+    "speakers": [
+      {
+        "name": "Krystyna Kostka",
+        "title": "Chief Supply Chain Officer",
+        "company": "BJ's Wholesale Club"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Jennifer McLean",
+        "title": "Managing Partner & Retail Industr... (truncated in app)",
+        "company": "Clarkston Consulting"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Track Keynote: Building a Continuous, End-to-End Supply Chain"
+  },
+  {
+    "date": "2026-09-23",
+    "start": "10:10",
+    "end": "10:30",
+    "timezone": "America/Los_Angeles",
+    "stage": "Pop Stage",
+    "speakers": [
+      {
+        "name": "Lisa Selk",
+        "title": "SVP, Brand Fuel",
+        "company": "Hormel Foods"
+      },
+      {
+        "name": "Lydia Thacher",
+        "title": "VP, Digital Commerce",
+        "company": "Dollar General"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Panel: Resonating with Consumers Demanding Value and Affordability",
+    "speakers_note": "The screenshot ends after these speakers; any moderator was not shown."
+  },
+  {
+    "date": "2026-09-23",
+    "start": "10:50",
+    "end": "11:10",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "speakers": [
+      {
+        "name": "Myron Frazier",
+        "title": "EVP & Chief Merchant",
+        "company": "Sam's Club"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "How Sam's Club Resonates with Consumers Demanding Value",
+    "speakers_note": "The screenshot ends after this speaker; any other speakers or moderator were not shown."
   }
 ]
