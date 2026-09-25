@@ -101,13 +101,47 @@
     "notes_status": "transcript to follow"
   },
   {
-    "date": null,
-    "start": null,
-    "end": null,
+    "date": "2026-09-24",
+    "start": "14:20",
+    "end": "15:00",
     "timezone": "America/Los_Angeles",
-    "stage": null,
-    "title": "Closing Session: Show Wrap-Up Panel",
-    "title_note": "Working title from the recording; official session title, date, time and stage not yet provided",
+    "stage": "Snackable Insights Stage",
+    "title": "New Opportunities for 1:1 Personalization",
+    "speakers": [
+      {
+        "name": "Cristian Arcangeli",
+        "title": "VP, Marketing, Strategy & Digital B... (truncated in app)",
+        "company": "Illy Caffè"
+      },
+      {
+        "name": "Harshad Agashe",
+        "title": "VP Data & Data Science product... (truncated in app)",
+        "company": "Albertsons Companies"
+      },
+      {
+        "name": "Nick Hamilton",
+        "title": "SVP, Technology",
+        "company": "Kroger Precision Marketing"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Sabrina McPherson",
+        "title": "SVP",
+        "company": "Publicis Sapient"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow"
+  },
+  {
+    "date": "2026-09-24",
+    "start": "15:10",
+    "end": "15:50",
+    "timezone": "America/Los_Angeles",
+    "stage": "Capsule Stage",
+    "title": "Groceryshop Key Takeaways",
     "speakers": [
       {
         "name": "Deborah Weinswig",
@@ -115,14 +149,14 @@
         "company": "Coresight Research"
       },
       {
-        "name": "Kelli",
+        "name": "Kelly Lindenau",
         "title": "Content Director",
         "company": "Groceryshop"
       },
       {
         "name": "Chris Walton",
-        "title": "President & CEO (as introduced)",
-        "company": "Omni Talk Retail"
+        "title": "President & CEO",
+        "company": "Omni Talk"
       }
     ],
     "moderators": [
@@ -138,5 +172,36 @@
       "turns": "groceryshop_closing_panel_turns.json"
     },
     "notes_status": "transcript available"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Title TBC: Women in the C-suite session",
+    "title_note": "Title, date, time and stage not shown in the screenshot; the About text begins “Women continue to break barriers in the C-suite by leading with resilience, influence, and a willingness to challenge the status quo.”",
+    "speakers": [
+      {
+        "name": "Leah Key",
+        "title": "President",
+        "company": "5-Hour Energy"
+      },
+      {
+        "name": "Tandy Harvey",
+        "title": "CEO",
+        "company": "National Co+Op Grocers"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Kait Stephens",
+        "title": "Podcast Host, Retail Industry Expert",
+        "company": "The Omnichannel Marketer"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow"
   }
 ]
