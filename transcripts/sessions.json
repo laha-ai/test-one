@@ -203,5 +203,97 @@
     "sponsors": [],
     "transcript": null,
     "notes_status": "transcript to follow"
+  },
+  {
+    "date": "2026-09-23",
+    "start": "15:00",
+    "end": "15:20",
+    "timezone": "America/Los_Angeles",
+    "stage": "Case Studies Stage",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [
+      "Epsilon"
+    ],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Case Study Session, Sponsored by Epsilon. Ahold Delhaize and the future of retail media: Why offsite and identity are key",
+    "speakers_note": "Speakers not shown in the screenshot"
+  },
+  {
+    "date": "2026-09-24",
+    "start": "09:40",
+    "end": "10:00",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "speakers": [
+      {
+        "name": "Jeremy Gosch",
+        "title": "CEO",
+        "company": "Hy-Vee"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Ben Miller",
+        "title": "Founder & Host",
+        "company": "The GrocerTalk Podcast"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "How Hy-Vee Stands Out as a Regional Grocer"
+  },
+  {
+    "date": "2026-09-24",
+    "start": "10:20",
+    "end": "10:40",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "speakers": [],
+    "moderators": [
+      {
+        "name": "Brendan Witcher",
+        "title": "Global VP, Product & Content",
+        "company": "Shoptalk & Groceryshop"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Groceryshop's Grocery Industry Outlook",
+    "speakers_note": "The app lists only a moderator for this session"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "speakers": [
+      {
+        "name": "Flavia Takey",
+        "title": "Head of Supermarket, LATAM",
+        "company": "Mercado Libre"
+      },
+      {
+        "name": "Mustafa Bartin",
+        "title": "General Manager",
+        "company": "Migros Turkiye"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Steve Scales",
+        "title": "Partner & Managing Director",
+        "company": "AlixPartners"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Title TBC: Grocery ecommerce fulfillment session",
+    "title_note": "Title, date, time and stage not shown in the screenshot; the About text begins “Grocery ecommerce is seeing significant growth, yet fulfillment and delivery costs continue to hinder profitability.”"
   }
 ]

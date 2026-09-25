@@ -140,7 +140,9 @@ function sessionSection(s, n, transcript) {
     ...(s.moderators || []).map((m) => [m.name, "Moderator", m.title, m.company]),
     ...(s.speakers || []).map((m) => [m.name, s.moderators?.length && s.speakers.length > 1 ? "Panelist" : "Speaker", m.title, m.company]),
   ];
-  out.push(table([2200, 1400, 3160, 2600], ["Name", "Role", "Title", "Organisation"], people));
+  if (people.length) out.push(table([2200, 1400, 3160, 2600], ["Name", "Role", "Title", "Organisation"], people));
+  else out.push(p("Speakers TBC.", { italics: true, color: "7F7F7F" }));
+  if (s.speakers_note) out.push(p(s.speakers_note, { size: 18, italics: true, color: "595959" }));
 
   if (!transcript) {
     out.push(h(HeadingLevel.HEADING_2, "Transcript"));
