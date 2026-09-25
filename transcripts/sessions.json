@@ -462,5 +462,113 @@
     "notes_status": "transcript to follow",
     "title": "How Sam's Club Resonates with Consumers Demanding Value",
     "speakers_note": "The screenshot ends after this speaker; any other speakers or moderator were not shown."
+  },
+  {
+    "date": "2026-09-23",
+    "start": "09:00",
+    "end": "09:40",
+    "timezone": "America/Los_Angeles",
+    "stage": "Snackable Insights Stage",
+    "speakers": [
+      {
+        "name": "Andrew Krysiak",
+        "title": "Vice President, Digital",
+        "company": "Good Food Holdings"
+      },
+      {
+        "name": "Heather Feather",
+        "title": "VP, Digital, eCommerce & Custom... (truncated in app)",
+        "company": "Giant Eagle"
+      },
+      {
+        "name": "Chad Petersen",
+        "title": "SVP Digital & eCommerce",
+        "company": "Lowes Foods"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Matt Van Gilder",
+        "title": "Principal & VP, Omnichannel",
+        "company": "NexChapter"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Achieving Omnichannel Success by Unifying the Retail Organization"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "speakers": [
+      {
+        "name": "Tal Zlotnitsky",
+        "title": "Founder and CEO",
+        "company": "EVERY AISLE (formerly Breez AI)"
+      },
+      {
+        "name": "Kanishka Thakur",
+        "title": "Co-Founder & CEO",
+        "company": "Nudge"
+      },
+      {
+        "name": "Amir Sarhangi",
+        "title": "Founder & CEO",
+        "company": "Skyfire"
+      },
+      {
+        "name": "Oliver Leigh",
+        "title": "Co-Founder & CEO",
+        "company": "Portal"
+      },
+      {
+        "name": "Christopher Kong",
+        "title": "Co-Founder & CEO",
+        "company": "Corvera"
+      },
+      {
+        "name": "Samhita Karnati",
+        "title": "Founder",
+        "company": "Shelflife"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Caleb Carr",
+        "title": "Head of Data Science & Engineeri... (truncated in app)",
+        "company": "Schnuck Markets, Inc."
+      },
+      {
+        "name": "Harshad Agashe",
+        "title": "VP Data & Data Science product... (truncated in app)",
+        "company": "Albertsons Companies"
+      },
+      {
+        "name": "Manuel Queiroz",
+        "title": "Partner",
+        "company": "Bright Pixel Capital"
+      },
+      {
+        "name": "Deborah Weinswig",
+        "title": "Founder & CEO",
+        "company": "Coresight Research"
+      },
+      {
+        "name": "Deepak Jose",
+        "title": "VP, Head of Data & Decision Intelli... (truncated in app)",
+        "company": "Niagara Waters"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow",
+    "title": "Startup Pitch Competition",
+    "title_note": "Working title; the official session title, date, time and stage were not shown in the screenshots.",
+    "speakers_note": "The app lists these five people under Moderators.",
+    "speaker_role": "Speaker"
   }
 ]
