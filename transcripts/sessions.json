@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2026-09-22",
+    "start": "11:00",
+    "end": "11:10",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "title": "Opening Remarks",
+    "speakers": [
+      {
+        "name": "Rocquan Lucas",
+        "title": "VP, Content",
+        "company": "Groceryshop"
+      },
+      {
+        "name": "Karen Puddy",
+        "title": "Event Director, Groceryshop",
+        "company": "Hyve"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow"
+  },
+  {
+    "date": "2026-09-22",
+    "start": "11:10",
+    "end": "11:30",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "title": "How Technology is Reshaping Grocery: Perspectives from Instacart CEO Chris Rogers",
+    "speakers": [
+      {
+        "name": "Chris Rogers",
+        "title": "CEO",
+        "company": "Instacart"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Ben Miller",
+        "title": "Founder & Host",
+        "company": "The GrocerTalk Podcast"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow"
+  },
+  {
+    "date": "2026-09-22",
+    "start": "11:30",
+    "end": "11:50",
+    "timezone": "America/Los_Angeles",
+    "stage": "Main Stage",
+    "title": "Kroger's Approach to Harnessing and Scaling AI",
+    "speakers": [
+      {
+        "name": "Yael Cosset",
+        "title": "EVP & Chief Digital Officer",
+        "company": "Kroger"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Paula Macaggi",
+        "title": "Founder & Host",
+        "company": "OFFBounds"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "notes_status": "transcript to follow"
+  },
+  {
+    "date": "2026-09-22",
+    "start": "15:15",
+    "end": "15:35",
+    "timezone": "America/Los_Angeles",
+    "stage": "Case Studies Stage",
+    "title": "Case Study Session, Sponsored by Target Roundel. Designing Retail Media Experiences that Fuel Growth",
+    "speakers": [
+      {
+        "name": "Erin Anderson",
+        "title": "VP Shopper Omni-Activation and... (truncated in app)",
+        "company": "Danone"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Jenny Holleran",
+        "title": "VP, Roundel Partner Solutions",
+        "company": "Target"
+      }
+    ],
+    "sponsors": [
+      "Target Roundel"
+    ],
+    "transcript": null,
+    "notes_status": "transcript to follow"
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "timezone": "America/Los_Angeles",
+    "stage": null,
+    "title": "Closing Session: Show Wrap-Up Panel",
+    "title_note": "Working title from the recording; official session title, date, time and stage not yet provided",
+    "speakers": [
+      {
+        "name": "Deborah Weinswig",
+        "title": "Founder & CEO",
+        "company": "Coresight Research"
+      },
+      {
+        "name": "Kelli",
+        "title": "Content Director",
+        "company": "Groceryshop"
+      },
+      {
+        "name": "Chris Walton",
+        "title": "President & CEO (as introduced)",
+        "company": "Omni Talk Retail"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Ben Miller",
+        "title": "Founder & Host",
+        "company": "The GrocerTalk Podcast"
+      }
+    ],
+    "sponsors": [],
+    "transcript": {
+      "raw": "groceryshop_closing_panel_raw.txt",
+      "turns": "groceryshop_closing_panel_turns.json"
+    },
+    "notes_status": "transcript available"
+  }
+]
