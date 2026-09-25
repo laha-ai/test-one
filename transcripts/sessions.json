@@ -499,76 +499,38 @@
     "title": "Achieving Omnichannel Success by Unifying the Retail Organization"
   },
   {
-    "date": null,
-    "start": null,
-    "end": null,
+    "date": "2026-09-22",
+    "start": "16:30",
+    "end": "17:10",
     "timezone": "America/Los_Angeles",
-    "stage": null,
+    "stage": "Pop Stage",
+    "title": "Centering Products and Assortment Around Key Dietary Preferences",
     "speakers": [
       {
-        "name": "Tal Zlotnitsky",
-        "title": "Founder and CEO",
-        "company": "EVERY AISLE (formerly Breez AI)"
+        "name": "John Conlin",
+        "title": "SVP, Food & Beverage Merchandis... (truncated in app)",
+        "company": "Target"
       },
       {
-        "name": "Kanishka Thakur",
-        "title": "Co-Founder & CEO",
-        "company": "Nudge"
+        "name": "Talia Monroe",
+        "title": "SVP, Commercial Growth",
+        "company": "Chobani"
       },
       {
-        "name": "Amir Sarhangi",
-        "title": "Founder & CEO",
-        "company": "Skyfire"
-      },
-      {
-        "name": "Oliver Leigh",
-        "title": "Co-Founder & CEO",
-        "company": "Portal"
-      },
-      {
-        "name": "Christopher Kong",
-        "title": "Co-Founder & CEO",
-        "company": "Corvera"
-      },
-      {
-        "name": "Samhita Karnati",
-        "title": "Founder",
-        "company": "Shelflife"
+        "name": "Dan Haugen",
+        "title": "Co-Founder & Chief Operating O... (truncated in app)",
+        "company": "Roxberry Naturals"
       }
     ],
     "moderators": [
       {
-        "name": "Caleb Carr",
-        "title": "Head of Data Science & Engineeri... (truncated in app)",
-        "company": "Schnuck Markets, Inc."
-      },
-      {
-        "name": "Harshad Agashe",
-        "title": "VP Data & Data Science product... (truncated in app)",
-        "company": "Albertsons Companies"
-      },
-      {
-        "name": "Manuel Queiroz",
-        "title": "Partner",
-        "company": "Bright Pixel Capital"
-      },
-      {
-        "name": "Deborah Weinswig",
-        "title": "Founder & CEO",
-        "company": "Coresight Research"
-      },
-      {
-        "name": "Deepak Jose",
-        "title": "VP, Head of Data & Decision Intelli... (truncated in app)",
-        "company": "Niagara Waters"
+        "name": "Chad Lusk",
+        "title": "Partner & Managing Director",
+        "company": "Alvarez & Marsal Consumer and R... (truncated in app)"
       }
     ],
     "sponsors": [],
     "transcript": null,
-    "notes_status": "transcript to follow",
-    "title": "Startup Pitch Competition",
-    "title_note": "Working title; the official session title, date, time and stage were not shown in the screenshots.",
-    "speakers_note": "The app lists these five people under Moderators.",
-    "speaker_role": "Speaker"
+    "notes_status": "transcript to follow"
   }
 ]
