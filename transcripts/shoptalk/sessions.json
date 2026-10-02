@@ -195,5 +195,68 @@
       "Advice: show loyalty to the customer from day one, and never build a business model on breakage."
     ],
     "transcript_note": "The recording starts partway through the introduction."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Agentic commerce session (AWS, Anthropic, Coresight Research)",
+    "title_note": "Not yet matched to an agenda session. A presentation by Justin (AWS, retail and consumer goods), a presentation by Marina (heads partnerships at Anthropic; name partly unclear), then a panel moderated by Deborah Weinswig (Founder & CEO, Coresight Research).",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_aws_anthropic_coresight.txt"
+    },
+    "takeaways": [
+      "AWS: most retailers are still held back by fragmented data (multiple ERPs, separate commerce systems); agentic AI is already live at Amazon in Rufus/Alexa for Shopping, Buy for Me, advertising and the internal tool Amazon Quick.",
+      "Anthropic: three modalities of agentic commerce; the open-source Claude Commerce Agent covers consumer-facing, merchandising and supply-chain agents, with about 35% larger carts and 60% higher conversion reported.",
+      "Coresight: a 75% increase in agentic build for commerce in the last 90 days; AI leadership roles are increasingly reporting to the CEO.",
+      "Retailer concerns from the AI council: connecting stores and e-commerce, proving the value of AI, supply chain, cybersecurity and change management; many retailers are hiring, not cutting.",
+      "Advice: ask to see AI working with real customers, invest in change management, and keep the customer at the centre."
+    ],
+    "transcript_note": "The recording starts partway through the opening introductions."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Opening remarks",
+    "title_note": "Not yet matched to an agenda session. Welcome by Zia Daniell Wigder, Co-Founder, Groceryshop/Shoptalk (title as on the Groceryshop app).",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_opening_remarks.txt"
+    },
+    "takeaways": [
+      "First time a US Shoptalk event has moved location: from Chicago to Nashville.",
+      "Shoptalk Fall is designed to be intimate and interactive and is used to test new formats: a B2B track, hands-on sessions (e.g. AI literacy to live agents in 45 minutes), ask-me-anything sessions, town halls and a Gen Z/Gen Alpha teen panel."
+    ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Estée Lauder Companies keynote",
+    "title_note": "Not yet matched to an agenda session. Tara Simon, President of the Americas, and Lisa Sequino, President of MAC (title transcribed as “President of Makeup Bluster”), The Estée Lauder Companies; interviewed by Jessica Matlin, founder and host of Fat Mascara (names as introduced on stage).",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_estee_lauder.txt"
+    },
+    "takeaways": [
+      "MAC launched at Sephora in nine months instead of the usual 18–24 by throwing out the rule book; the launch was treated as a cultural moment (campaign by Nicola Formichetti, a fast-turnaround billboard in Times Square).",
+      "ELC is now on Amazon and TikTok Shop; channels feed each other (e.g. a TikTok Shop Super Brand Day for Clinique Black Honey lifted sales at Ulta and Amazon within hours).",
+      "Brand equity and reach aren't mutually exclusive: keep brand codes but be flexible per channel; Kilian Paris's $150 cocktails collection sold out on Sephora.com in 72 hours.",
+      "Leadership: challenger mindset, speed without asking permission, being direct, and “phone a friend” — nobody has all the answers."
+    ]
   }
 ]

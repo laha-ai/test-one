@@ -13,8 +13,8 @@ const DIR = __dirname;
 const EVENTS = {
   groceryshop: { name: "Groceryshop 2026", sessions: "sessions.json", out: "Groceryshop_2026_Session_Notes.docx", tz: "PT",
     timeNote: "Times are Los Angeles time (PT), as listed in the Groceryshop app." },
-  shoptalk: { name: "Shoptalk", sessions: "shoptalk/sessions.json", out: "Shoptalk_Session_Notes.docx", tz: "",
-    timeNote: "Times are as listed in the Shoptalk agenda." },
+  shoptalk: { name: "Shoptalk Fall 2026 (Nashville)", sessions: "shoptalk/sessions.json", out: "Shoptalk_Session_Notes.docx", tz: "CT",
+    timeNote: "Times are Central Time (CT), as listed in the Shoptalk agenda." },
 };
 const EVENT = EVENTS[process.argv[2] || "groceryshop"];
 if (!EVENT) throw new Error(`Unknown event: ${process.argv[2]}`);
