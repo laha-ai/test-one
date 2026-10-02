@@ -1,7 +1,6 @@
 // Builds one master Word document covering every Groceryshop session in sessions.json.
 // Sessions with a transcript get their verbatim text split into speaker turns using the
 // start phrases in the matching *_turns.json file; the rest are listed as "Transcript to follow".
-// Usage: npm install docx && node generate_session_notes.js
 const fs = require("fs");
 const path = require("path");
 const {
@@ -10,8 +9,17 @@ const {
 } = require("docx");
 
 const DIR = __dirname;
-const OUT = path.join(DIR, "Groceryshop_2026_Session_Notes.docx");
-const sessions = JSON.parse(fs.readFileSync(path.join(DIR, "sessions.json"), "utf8"));
+// Usage: node generate_session_notes.js [groceryshop|shoptalk]
+const EVENTS = {
+  groceryshop: { name: "Groceryshop 2026", sessions: "sessions.json", out: "Groceryshop_2026_Session_Notes.docx", tz: "PT",
+    timeNote: "Times are Los Angeles time (PT), as listed in the Groceryshop app." },
+  shoptalk: { name: "Shoptalk", sessions: "shoptalk/sessions.json", out: "Shoptalk_Session_Notes.docx", tz: "",
+    timeNote: "Times are as listed in the Shoptalk agenda." },
+};
+const EVENT = EVENTS[process.argv[2] || "groceryshop"];
+if (!EVENT) throw new Error(`Unknown event: ${process.argv[2]}`);
+const OUT = path.join(DIR, EVENT.out);
+const sessions = JSON.parse(fs.readFileSync(path.join(DIR, EVENT.sessions), "utf8"));
 
 // ---------- data helpers ----------
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -29,7 +37,7 @@ function fmtTime(hhmm) {
   return `${h % 12 || 12}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
 }
 
-const fmtSlot = (s) => (s.start ? `${fmtTime(s.start)} – ${fmtTime(s.end)} PT` : "TBC");
+const fmtSlot = (s) => (s.start ? `${fmtTime(s.start)} – ${fmtTime(s.end)}${EVENT.tz ? " " + EVENT.tz : ""}` : "TBC");
 
 // Sessions in time order; sessions without a date go last, in file order.
 function sortSessions(list) {
@@ -116,7 +124,7 @@ function statusLabel(s) {
 // ---------- document sections ----------
 function coverAndIndex(ordered) {
   const out = [
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 1200, after: 120 }, children: [new TextRun({ text: "GROCERYSHOP 2026", bold: true, size: 28, color: "7F7F7F", characterSpacing: 60 })] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 1200, after: 120 }, children: [new TextRun({ text: EVENT.name.toUpperCase(), bold: true, size: 28, color: "7F7F7F", characterSpacing: 60 })] }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: "Session Notes & Transcripts", bold: true, size: 48, color: NAVY })] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { after: 480 },
@@ -127,7 +135,7 @@ function coverAndIndex(ordered) {
     table([1500, 1900, 1500, 3060, 1400], ["Date", "Time", "Stage", "Session", "Notes"],
       ordered.map((s) => [fmtDate(s.date), fmtSlot(s), s.stage || "TBC", s.title, statusLabel(s)])),
     p(""),
-    p("Times are Los Angeles time (PT), as listed in the Groceryshop app. “TBC” means the detail has not been provided yet.", { size: 18, italics: true, color: "595959" }),
+    p(`${EVENT.timeNote} “TBC” means the detail has not been provided yet.`, { size: 18, italics: true, color: "595959" }),
   ];
   return out;
 }
@@ -223,8 +231,8 @@ const heading = (id, name, size, color, before, extra = {}) => ({
 });
 
 const doc = new Document({
-  creator: "Groceryshop session notes",
-  title: "Groceryshop 2026 Session Notes",
+  creator: `${EVENT.name} session notes`,
+  title: `${EVENT.name} Session Notes`,
   styles: {
     default: { document: { run: { font: FONT, size: 22 } } },
     paragraphStyles: [
@@ -243,7 +251,7 @@ const doc = new Document({
     properties: { page: { size: { width: 12240, height: 15840 }, margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 } } },
     footers: {
       default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [
-        new TextRun({ text: "Groceryshop 2026 Session Notes  |  Page ", size: 16, color: "7F7F7F" }),
+        new TextRun({ text: `${EVENT.name} Session Notes  |  Page `, size: 16, color: "7F7F7F" }),
         new TextRun({ children: [PageNumber.CURRENT], size: 16, color: "7F7F7F" }),
       ] })] }),
     },
