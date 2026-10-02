@@ -67,5 +67,133 @@
       "Advice: big brands should keep brand principles but be flexible in execution and give creators freedom; be consistent, since TikTok Shop is an always-on channel, not a one-off viral moment."
     ],
     "transcript_note": "The recording starts partway through the moderator's introduction."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: AI in operations panel (AWS, OpenAI, Sears)",
+    "title_note": "Not yet matched to an agenda session. Moderator Aparna (AWS, retail, restaurants and consumer goods business development); panelists Jack (OpenAI, consumer industries) and Srini (CEO of a Sears technology business unit). Surnames unclear in the recording.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_aws_openai_sears.txt"
+    },
+    "takeaways": [
+      "OpenAI: about 1.5 billion shopping-related queries a week on ChatGPT; getting product data and PDPs properly enriched is table stakes for agentic commerce; virtual try-on inside ChatGPT is coming.",
+      "Sears' AI agent “Chris” acts as “CEO of the service order”: a live video/voice assistant diagnoses appliance problems before the technician visit, predicts parts, routes jobs by expected profitability and offers protection plans (shown in a live demo).",
+      "Sears' contact centre handles about 2 million calls with AI (“Samantha”); cost per call fell from about $8 to around 21 cents, and every call can be analysed to drive improvements. Focus on value per outcome, not token cost.",
+      "Chris also mapped and now runs Sears' capital approval (CapCom) process, briefing presenters beforehand and sitting in board meetings as a non-voting participant; humans still make the decision.",
+      "Agent-to-agent orchestration (e.g. Lowe's associate assistant expanding to customers) and observability are key; spend on change management alongside AI."
+    ],
+    "transcript_note": "Includes a recorded and a live demo, so parts are the AI agent's own speech."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Live shopping and social commerce sessions",
+    "title_note": "Not yet matched to an agenda session. Appears to be several back-to-back conversations with one host: the founder of a European patches/supplements brand, a QVC executive (social/TikTok), and the founder-CEO of Canvas Beauty. Names unclear in the recording.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_live_social_commerce.txt"
+    },
+    "takeaways": [
+      "Patches brand: educate, educate, educate; test products for one to three months and drop what doesn't work; live streams run up to 8 hours a day in the US, and high-energy, urgent selling worked better in the US than the UK.",
+      "QVC treats TikTok as a discovery enabler, not a competitor: a separate start-up-style team, TikTok-only hosts and five TikTok studios brought about 1 million new customers in 2025; launched a TikTok-exclusive apparel brand.",
+      "Canvas Beauty: people buy into a movement, not a product; sell aspiration; owning manufacturing allows a 14-day concept-to-launch turnaround; set a record with a $2.6 million TikTok live.",
+      "Common advice: be authentic and consistent, test relentlessly, and be brand-authentic but platform-native."
+    ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Commerce platform and conversion rate talk (Brian Gillespie)",
+    "title_note": "Not yet matched to an agenda session. Short talk by Brian Gillespie (company not stated in the recording); the recording starts partway through.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_brian_gillespie_talk.txt"
+    },
+    "takeaways": [
+      "Replatforming every few years rarely fixes the real problems, which are usually processes and data.",
+      "Conversion rate is a misleading hero metric: cutting top-of-funnel traffic can raise it while hurting long-term health, and B2B buyers visit many times before buying.",
+      "AI agents don't respond to countdown timers or homepage merchandising; they check inventory and price, so sites must work for bots without a storefront."
+    ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Consumer trends interactive roundtable",
+    "title_note": "Not yet matched to an agenda session. Interactive table-discussion session led by a market-research presenter (company not stated), with attendees from Dollar Tree, Journeys, Living Spaces and others.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_consumer_trends_roundtable.txt"
+    },
+    "takeaways": [
+      "Income polarisation: growth is shifting to $100K+ households (27% of consumers control 62% of disposable income); channel growth is at the extremes while department stores decline.",
+      "AI referrals grew 376% since January 2025 (about 2–3% of traffic); impact is highest in beauty and personal care (47%) and lowest in soft drinks; AI rewards the brand that best answers the shopper's question.",
+      "Friends and family remain the most trusted source (65%); communities increasingly shape demand.",
+      "Table answers: Dollar Tree's multi-price strategy attracts higher-income shoppers; brands must serve both core and new customers."
+    ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Agentic commerce fireside chat (Anthropic)",
+    "title_note": "Not yet matched to an agenda session. Interview with an Anthropic speaker on Claude and agentic commerce; names unclear in the recording.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_anthropic_agentic_commerce.txt"
+    },
+    "takeaways": [
+      "Three modalities of agentic commerce: discovery on Claude (without owning checkout), Claude agents purchasing on merchant sites, and merchants' own agents.",
+      "Trust rests on privacy, accuracy and being unbiased; Anthropic says there is no advertising and no paid ranking in Claude.",
+      "To be surfaced: allow agents via robots.txt and your CDN, keep product data in HTML with full descriptions and prices, and keep it current.",
+      "Claude Commerce Agent, an open-source reference for merchant agents, was launched this month; merchants report about 35% larger carts and 60% higher conversion. Smaller models suit most use cases."
+    ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Amazon Prime fireside chat",
+    "title_note": "Not yet matched to an agenda session. Interview with Jameel (surname transcribed as Gani), who leads Amazon Prime worldwide; interviewer not named in the recording.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_amazon_prime.txt"
+    },
+    "takeaways": [
+      "Prime has over 200 million paid members in 27 countries; it is a paid membership, not a loyalty program or a loss leader, and every unit shipped must be contribution-profit accretive.",
+      "Grocery and everyday essentials: perishable customers up 50% and same/next-day items up 40% in the first half of the year; the fastest speeds have the lowest cost to serve.",
+      "Price has barely risen: $79 in 2005 would be $133 adjusted for inflation versus $139 today, for far more selection and speed.",
+      "Advice: show loyalty to the customer from day one, and never build a business model on breakage."
+    ],
+    "transcript_note": "The recording starts partway through the introduction."
   }
 ]
