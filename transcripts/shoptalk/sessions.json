@@ -5,21 +5,67 @@
     "end": null,
     "stage": null,
     "unmatched": true,
-    "title": "Unmatched: Delivery promise and fulfillment network panel",
-    "title_note": "Not yet matched to an agenda session. Panel with a DoorDash executive (mentions launching drone delivery with Lowe's in Charlotte) and the CEO of a direct-to-consumer mattress brand owned by a manufacturer, plus a moderator.",
+    "title": "Unmatched: Fulfillment and delivery: exceeding customer expectations (panel)",
+    "title_note": "Not yet matched to an agenda session. Moderator is a co-founder/CEO of a fulfilment company (name unclear in the recording); guests introduced as Thomas Stevens, General Manager of Retail at DoorDash, and Dylan (surname unclear) of a 180-year-old bedding brand transcribed as “Mansutan”.",
     "speakers": [],
     "moderators": [],
     "sponsors": [],
     "transcript": {
       "raw": "shoptalk/raw/unmatched_fulfillment_promise_panel.txt"
     },
-    "transcript_note": "The recording starts partway through the session. Song lyrics picked up after the session ended were removed.",
+    "transcript_note": "Assembled from two pastes: the opening of the session, then a gap, then the remainder. Song lyrics picked up after the session ended were removed.",
     "takeaways": [
+      "Moderator's framing: design beats spend; treat inventory placement as a strategy; close the gap between the delivery promise made and what is actually delivered.",
       "Retailers already stock the best SKUs for their market, so DoorDash puts items in its own fulfilment nodes mainly for late-night demand or fast movers that stores struggle to keep in stock.",
-      "The mattress brand plans capacity from 30-day trailing order concentration and saturates target markets (e.g. Phoenix); its oversized boxes make shipping costly, so pricing is built around that.",
+      "The bedding brand plans capacity from 30-day trailing order concentration and saturates target markets (e.g. Phoenix); its oversized boxes make shipping costly, so pricing is built around that.",
       "Automate only once a process is proven and tied to a real customer problem; go high-touch first to learn where the pain is. DoorDash has launched drone delivery with Lowe's in Charlotte.",
-      "Align marketing promises with actual operations: DoorDash sets advertised delivery times each quarter from real delivery data; the mattress brand uses NPS as its shared north star.",
+      "Align marketing promises with actual operations: DoorDash sets advertised delivery times each quarter from real delivery data; the bedding brand uses NPS as its shared north star.",
       "Advice: stop copying competitors, and stop communicating with customers the way you used to."
     ]
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Loyalty and membership panel",
+    "title_note": "Not yet matched to an agenda session. Panelists include the General Manager of Walmart+ (first name transcribed as Deepak) and the President of The UPS Store (first name Brad), plus a third panelist whose name and company are unclear (discusses pros vs DIY customers), with a female moderator.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_loyalty_panel.txt"
+    },
+    "takeaways": [
+      "Loyalty programs are getting more spend but less engagement: about half of points are never redeemed and many members want to leave; experiences now beat financial rewards as the reason to join.",
+      "Walmart+ ($98/year, over a dozen benefits) aims to be an “essential membership” rather than a points program; members shop 3x more often and spend 4x more than non-members.",
+      "Walmart+ prioritises high-uncertainty, high-reward experiments and uses early proxy metrics (benefit activation, using several benefits early) to predict retention.",
+      "The UPS Store: customer experience never exceeds that of the people delivering it; RFID tracking was rolled out to remove friction, not to chase technology.",
+      "Use counter-metrics so optimising one KPI doesn't damage the wider experience."
+    ],
+    "transcript_note": "Audio for parts of the third panelist's answers is unclear."
+  },
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: TikTok Shop session",
+    "title_note": "Not yet matched to an agenda session. Moderator Neil; speakers Patrick (TikTok Shop) and Sarah, founder of Beachwaver (surnames not clear in the recording).",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_tiktok_shop.txt"
+    },
+    "takeaways": [
+      "TikTok Shop launched in the US three years ago; shopping starts with discovery rather than search, though there were over 100 billion shopping-intent searches last year. Best Buy is launching soon with 10,000+ products.",
+      "Live selling has no time limit (unlike a 10-minute QVC slot), so founders can educate and entertain; Beachwaver has run 465 live streams since January 2024.",
+      "Community drives repeat purchase and product ideas: hundreds of Beachwaver customers have ordered 30+ times, and a cow-print design requested by the community was its fastest sellout.",
+      "Advice: big brands should keep brand principles but be flexible in execution and give creators freedom; be consistent, since TikTok Shop is an always-on channel, not a one-off viral moment."
+    ],
+    "transcript_note": "The recording starts partway through the moderator's introduction."
   }
 ]
