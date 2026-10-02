@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "date": null,
+    "start": null,
+    "end": null,
+    "stage": null,
+    "unmatched": true,
+    "title": "Unmatched: Delivery promise and fulfillment network panel",
+    "title_note": "Not yet matched to an agenda session. Panel with a DoorDash executive (mentions launching drone delivery with Lowe's in Charlotte) and the CEO of a direct-to-consumer mattress brand owned by a manufacturer, plus a moderator.",
+    "speakers": [],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_fulfillment_promise_panel.txt"
+    },
+    "transcript_note": "The recording starts partway through the session. Song lyrics picked up after the session ended were removed.",
+    "takeaways": [
+      "Retailers already stock the best SKUs for their market, so DoorDash puts items in its own fulfilment nodes mainly for late-night demand or fast movers that stores struggle to keep in stock.",
+      "The mattress brand plans capacity from 30-day trailing order concentration and saturates target markets (e.g. Phoenix); its oversized boxes make shipping costly, so pricing is built around that.",
+      "Automate only once a process is proven and tied to a real customer problem; go high-touch first to learn where the pain is. DoorDash has launched drone delivery with Lowe's in Charlotte.",
+      "Align marketing promises with actual operations: DoorDash sets advertised delivery times each quarter from real delivery data; the mattress brand uses NPS as its shared north star.",
+      "Advice: stop copying competitors, and stop communicating with customers the way you used to."
+    ]
+  }
+]
