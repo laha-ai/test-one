@@ -1,81 +1,369 @@
 [
   {
-    "date": null,
+    "date": "2026-09-29",
     "start": null,
     "end": null,
     "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Fulfillment and delivery: exceeding customer expectations (panel)",
-    "title_note": "Not yet matched to an agenda session. Moderator is a co-founder/CEO of a fulfilment company (name unclear in the recording); guests introduced as Thomas Stevens, General Manager of Retail at DoorDash, and Dylan (surname unclear) of a 180-year-old bedding brand transcribed as “Mansutan”.",
+    "title": "Opening remarks",
+    "speakers": [
+      {
+        "name": "Zia Daniell Wigder",
+        "title": "Co-Founder",
+        "company": "Shoptalk / Groceryshop (Hyve Group)"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_opening_remarks.txt"
+    },
+    "takeaways": [
+      "First time a US Shoptalk event has moved location: from Chicago to Nashville.",
+      "Shoptalk Fall is designed to be intimate and interactive and is used to test new formats: a B2B track, hands-on sessions (e.g. AI literacy to live agents in 45 minutes), ask-me-anything sessions, town halls and a Gen Z/Gen Alpha teen panel."
+    ],
+    "title_note": "Not on your calendar list; time and stage TBC. In the recording it leads straight into the Estée Lauder keynote."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "11:15",
+    "end": null,
+    "stage": "Headliner Stage",
+    "title": "Tractor Supply: Serving a Lifestyle, Building Lasting Relationships",
+    "speakers": [
+      {
+        "name": "Hal Lawton",
+        "title": "CEO",
+        "company": "Tractor Supply"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Sarah Nassauer",
+        "title": "",
+        "company": "The Wall Street Journal"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null
+  },
+  {
+    "date": "2026-09-29",
+    "start": "11:35",
+    "end": null,
+    "stage": "Headliner Stage",
+    "title": "Estée Lauder: Moving at the Speed of Culture",
+    "speakers": [
+      {
+        "name": "Tara Simon",
+        "title": "President, The Americas",
+        "company": "The Estée Lauder Companies"
+      },
+      {
+        "name": "Lisa Sequino",
+        "title": "President, Makeup Cluster",
+        "company": "The Estée Lauder Companies"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Jessica Matlin",
+        "title": "Founder & Host",
+        "company": "Fat Mascara"
+      }
+    ],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_estee_lauder.txt"
+    },
+    "takeaways": [
+      "MAC launched at Sephora in nine months instead of the usual 18–24 by throwing out the rule book; the launch was treated as a cultural moment (campaign by Nicola Formichetti, a fast-turnaround billboard in Times Square).",
+      "ELC is now on Amazon and TikTok Shop; channels feed each other (e.g. a TikTok Shop Super Brand Day for Clinique Black Honey lifted sales at Ulta and Amazon within hours).",
+      "Brand equity and reach aren't mutually exclusive: keep brand codes but be flexible per channel; Kilian Paris's $150 cocktails collection sold out on Sephora.com in 72 hours.",
+      "Leadership: challenger mindset, speed without asking permission, being direct, and “phone a friend” — nobody has all the answers."
+    ],
+    "speakers_note": "Moderator taken from the recording; not in the agenda listing."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "12:30",
+    "end": null,
+    "stage": "Room 201 (lunch, RSVP)",
+    "title": "AWS + Anthropic Lunch: Agentic Commerce: What Comes Next",
     "speakers": [],
     "moderators": [],
     "sponsors": [],
     "transcript": {
-      "raw": "shoptalk/raw/unmatched_fulfillment_promise_panel.txt"
+      "raw": "shoptalk/raw/unmatched_aws_anthropic_coresight.txt"
     },
-    "transcript_note": "Assembled from two pastes: the opening of the session, then a gap, then the remainder. Song lyrics picked up after the session ended were removed.",
     "takeaways": [
-      "Moderator's framing: design beats spend; treat inventory placement as a strategy; close the gap between the delivery promise made and what is actually delivered.",
-      "Retailers already stock the best SKUs for their market, so DoorDash puts items in its own fulfilment nodes mainly for late-night demand or fast movers that stores struggle to keep in stock.",
-      "The bedding brand plans capacity from 30-day trailing order concentration and saturates target markets (e.g. Phoenix); its oversized boxes make shipping costly, so pricing is built around that.",
-      "Automate only once a process is proven and tied to a real customer problem; go high-touch first to learn where the pain is. DoorDash has launched drone delivery with Lowe's in Charlotte.",
-      "Align marketing promises with actual operations: DoorDash sets advertised delivery times each quarter from real delivery data; the bedding brand uses NPS as its shared north star.",
-      "Advice: stop copying competitors, and stop communicating with customers the way you used to."
+      "AWS: most retailers are still held back by fragmented data (multiple ERPs, separate commerce systems); agentic AI is already live at Amazon in Rufus/Alexa for Shopping, Buy for Me, advertising and the internal tool Amazon Quick.",
+      "Anthropic: three modalities of agentic commerce; the open-source Claude Commerce Agent covers consumer-facing, merchandising and supply-chain agents, with about 35% larger carts and 60% higher conversion reported.",
+      "Coresight: a 75% increase in agentic build for commerce in the last 90 days; AI leadership roles are increasingly reporting to the CEO.",
+      "Retailer concerns from the AI council: connecting stores and e-commerce, proving the value of AI, supply chain, cybersecurity and change management; many retailers are hiring, not cutting.",
+      "Advice: ask to see AI working with real customers, invest in change management, and keep the customer at the centre."
+    ],
+    "transcript_note": "The recording starts partway through the opening introductions.",
+    "speakers_note": "Speakers per the recording: Justin (AWS), an Anthropic partnerships lead, and Deborah Weinswig (Founder & CEO, Coresight Research) as panel moderator. The Anthropic speaker is probably Parinaz Firozi (see the 3:45 PM keynote); to confirm."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "15:25",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Amazon Prime: The Next Evolution of Commerce",
+    "speakers": [
+      {
+        "name": "Jamil Ghani",
+        "title": "Leads Amazon Prime worldwide",
+        "company": "Amazon"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Hitha Herzog",
+        "title": "",
+        "company": ""
+      }
+    ],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_amazon_prime.txt"
+    },
+    "takeaways": [
+      "Prime has over 200 million paid members in 27 countries; it is a paid membership, not a loyalty program or a loss leader, and every unit shipped must be contribution-profit accretive.",
+      "Grocery and everyday essentials: perishable customers up 50% and same/next-day items up 40% in the first half of the year; the fastest speeds have the lowest cost to serve.",
+      "Price has barely risen: $79 in 2005 would be $133 adjusted for inflation versus $139 today, for far more selection and speed.",
+      "Advice: show loyalty to the customer from day one, and never build a business model on breakage."
+    ],
+    "transcript_note": "The recording starts partway through the introduction."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "15:45",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Anthropic: Beyond Ecommerce",
+    "speakers": [
+      {
+        "name": "Parinaz Firozi",
+        "title": "",
+        "company": "Anthropic"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Joe Laszlo",
+        "title": "",
+        "company": ""
+      }
+    ],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_anthropic_agentic_commerce.txt"
+    },
+    "takeaways": [
+      "Three modalities of agentic commerce: discovery on Claude (without owning checkout), Claude agents purchasing on merchant sites, and merchants' own agents.",
+      "Trust rests on privacy, accuracy and being unbiased; Anthropic says there is no advertising and no paid ranking in Claude.",
+      "To be surfaced: allow agents via robots.txt and your CDN, keep product data in HTML with full descriptions and prices, and keep it current.",
+      "Claude Commerce Agent, an open-source reference for merchant agents, was launched this month; merchants report about 35% larger carts and 60% higher conversion. Smaller models suit most use cases."
     ]
   },
   {
-    "date": null,
-    "start": null,
+    "date": "2026-09-29",
+    "start": "16:15",
     "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Loyalty and membership panel",
-    "title_note": "Not yet matched to an agenda session. Panelists include the General Manager of Walmart+ (first name transcribed as Deepak) and the President of The UPS Store (first name Brad), plus a third panelist whose name and company are unclear (discusses pros vs DIY customers), with a female moderator.",
-    "speakers": [],
+    "stage": "Retail Excellence Stage",
+    "title": "Target: Delivering Personalization that Drives Engagement",
+    "speakers": [
+      {
+        "name": "Berit Bauer",
+        "title": "",
+        "company": "Target"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Sonia Lapinsky",
+        "title": "",
+        "company": "AlixPartners"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Transparent Communication (4:15 PM, Studio A)."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "16:15",
+    "end": null,
+    "stage": "Studio A",
+    "title": "Transparent Communication: What Tech Buyers and Sellers Need From Each Other",
+    "speakers": [
+      {
+        "name": "Vicki Cantrell",
+        "title": "",
+        "company": "Vendors in Partnership"
+      },
+      {
+        "name": "Rob Garf",
+        "title": "",
+        "company": "Cordial"
+      },
+      {
+        "name": "Mokshika Sharma",
+        "title": "",
+        "company": "The Shade Store"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Target (4:15 PM)."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "17:05",
+    "end": null,
+    "stage": "Shopper Motivation Stage",
+    "title": "Wayfair: Adapting to Fast-Changing Market Conditions",
+    "speakers": [
+      {
+        "name": "Adam Sinoway",
+        "title": "",
+        "company": "Wayfair"
+      },
+      {
+        "name": "Kasturi Pal",
+        "title": "",
+        "company": "Amazon"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with EY (5:05 PM)."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "17:05",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "EY: New Research on Shopper Needs and Expectations",
+    "speakers": [
+      {
+        "name": "Patricia Camden",
+        "title": "",
+        "company": "EY"
+      },
+      {
+        "name": "Celeste Richardson",
+        "title": "",
+        "company": "Salesforce"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Wayfair (5:05 PM)."
+  },
+  {
+    "date": "2026-09-29",
+    "start": "17:15",
+    "end": null,
+    "stage": "Discovery Stage 2",
+    "title": "HCL Software: The Commerce Truths We Only Share After 5 PM",
+    "speakers": [
+      {
+        "name": "Brian Gillespie",
+        "title": "",
+        "company": "HCL Software"
+      }
+    ],
     "moderators": [],
     "sponsors": [],
     "transcript": {
-      "raw": "shoptalk/raw/unmatched_loyalty_panel.txt"
+      "raw": "shoptalk/raw/unmatched_brian_gillespie_talk.txt"
     },
     "takeaways": [
-      "Loyalty programs are getting more spend but less engagement: about half of points are never redeemed and many members want to leave; experiences now beat financial rewards as the reason to join.",
-      "Walmart+ ($98/year, over a dozen benefits) aims to be an “essential membership” rather than a points program; members shop 3x more often and spend 4x more than non-members.",
-      "Walmart+ prioritises high-uncertainty, high-reward experiments and uses early proxy metrics (benefit activation, using several benefits early) to predict retention.",
-      "The UPS Store: customer experience never exceeds that of the people delivering it; RFID tracking was rolled out to remove friction, not to chase technology.",
-      "Use counter-metrics so optimising one KPI doesn't damage the wider experience."
+      "Replatforming every few years rarely fixes the real problems, which are usually processes and data.",
+      "Conversion rate is a misleading hero metric: cutting top-of-funnel traffic can raise it while hurting long-term health, and B2B buyers visit many times before buying.",
+      "AI agents don't respond to countdown timers or homepage merchandising; they check inventory and price, so sites must work for bots without a storefront."
     ],
-    "transcript_note": "Audio for parts of the third panelist's answers is unclear."
+    "speakers_note": "Speaker name from the recording; company assumed from the session sponsor."
   },
   {
-    "date": null,
-    "start": null,
+    "date": "2026-09-30",
+    "start": "09:00",
     "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: TikTok Shop session",
-    "title_note": "Not yet matched to an agenda session. Moderator Neil; speakers Patrick (TikTok Shop) and Sarah, founder of Beachwaver (surnames not clear in the recording).",
+    "stage": "Shopper Motivation Stage",
+    "title": "Bain: Discounts, Promotions, and Serving the Price-Conscious Consumer",
     "speakers": [],
+    "moderators": [
+      {
+        "name": "Lisa Koetter",
+        "title": "",
+        "company": "Bain & Company"
+      }
+    ],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Brand Strategies for Leveraging Marketplaces (9:00 AM)."
+  },
+  {
+    "date": "2026-09-30",
+    "start": "09:00",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Brand Strategies for Leveraging Marketplaces",
+    "speakers": [
+      {
+        "name": "Sharon Leite",
+        "title": "",
+        "company": "The Vitamin Shoppe"
+      },
+      {
+        "name": "Natalie Lockhart",
+        "title": "",
+        "company": "Sally Beauty"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Bain (9:00 AM)."
+  },
+  {
+    "date": "2026-09-30",
+    "start": "09:50",
+    "end": null,
+    "stage": "Brand Storytelling Stage",
+    "title": "QVC: Innovations in Video and Social Shopping",
+    "speakers": [
+      {
+        "name": "Krystyna Taheri",
+        "title": "",
+        "company": "QVC"
+      }
+    ],
     "moderators": [],
     "sponsors": [],
     "transcript": {
-      "raw": "shoptalk/raw/unmatched_tiktok_shop.txt"
+      "raw": "shoptalk/raw/unmatched_live_social_commerce.txt"
     },
     "takeaways": [
-      "TikTok Shop launched in the US three years ago; shopping starts with discovery rather than search, though there were over 100 billion shopping-intent searches last year. Best Buy is launching soon with 10,000+ products.",
-      "Live selling has no time limit (unlike a 10-minute QVC slot), so founders can educate and entertain; Beachwaver has run 465 live streams since January 2024.",
-      "Community drives repeat purchase and product ideas: hundreds of Beachwaver customers have ordered 30+ times, and a cow-print design requested by the community was its fastest sellout.",
-      "Advice: big brands should keep brand principles but be flexible in execution and give creators freedom; be consistent, since TikTok Shop is an always-on channel, not a one-off viral moment."
+      "Patches brand: educate, educate, educate; test products for one to three months and drop what doesn't work; live streams run up to 8 hours a day in the US, and high-energy, urgent selling worked better in the US than the UK.",
+      "QVC treats TikTok as a discovery enabler, not a competitor: a separate start-up-style team, TikTok-only hosts and five TikTok studios brought about 1 million new customers in 2025; launched a TikTok-exclusive apparel brand.",
+      "Canvas Beauty: people buy into a movement, not a product; sell aspiration; owning manufacturing allows a 14-day concept-to-launch turnaround; set a record with a $2.6 million TikTok live.",
+      "Common advice: be authentic and consistent, test relentlessly, and be brand-authentic but platform-native."
     ],
-    "transcript_note": "The recording starts partway through the moderator's introduction."
+    "speakers_note": "The recording also includes conversations with the founder of a European patches brand and the founder-CEO of Canvas Beauty under the same host; they may be separate sessions."
   },
   {
-    "date": null,
-    "start": null,
+    "date": "2026-09-30",
+    "start": "12:00",
     "end": null,
     "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: AI in operations panel (AWS, OpenAI, Sears)",
-    "title_note": "Not yet matched to an agenda session. Moderator Aparna (AWS, retail, restaurants and consumer goods business development); panelists Jack (OpenAI, consumer industries) and Srini (CEO of a Sears technology business unit). Surnames unclear in the recording.",
+    "title": "AWS + OpenAI Innovation Lunch: Three Core Pillars of Personalization at Scale",
     "speakers": [],
     "moderators": [],
     "sponsors": [],
@@ -89,48 +377,166 @@
       "Chris also mapped and now runs Sears' capital approval (CapCom) process, briefing presenters beforehand and sitting in board meetings as a non-voting participant; humans still make the decision.",
       "Agent-to-agent orchestration (e.g. Lowe's associate assistant expanding to customers) and observability are key; spend on change management alongside AI."
     ],
-    "transcript_note": "Includes a recorded and a live demo, so parts are the AI agent's own speech."
+    "transcript_note": "Includes a recorded and a live demo, so parts are the AI agent's own speech.",
+    "speakers_note": "Speakers per the recording: Aparna (AWS), Jack (OpenAI, consumer industries) and Srini (CEO of a Sears technology business unit). Stage not listed (RSVP lunch)."
   },
   {
-    "date": null,
-    "start": null,
+    "date": "2026-09-30",
+    "start": "14:00",
     "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Live shopping and social commerce sessions",
-    "title_note": "Not yet matched to an agenda session. Appears to be several back-to-back conversations with one host: the founder of a European patches/supplements brand, a QVC executive (social/TikTok), and the founder-CEO of Canvas Beauty. Names unclear in the recording.",
-    "speakers": [],
+    "stage": "Headliner Stage",
+    "title": "TikTok Shop keynote",
+    "speakers": [
+      {
+        "name": "Patrick Nommensen",
+        "title": "",
+        "company": "TikTok Shop"
+      },
+      {
+        "name": "Sarah Potempa",
+        "title": "Founder",
+        "company": "Beachwaver"
+      }
+    ],
+    "moderators": [
+      {
+        "name": "Neil Saunders",
+        "title": "",
+        "company": "GlobalData"
+      }
+    ],
+    "sponsors": [],
+    "transcript": {
+      "raw": "shoptalk/raw/unmatched_tiktok_shop.txt"
+    },
+    "takeaways": [
+      "TikTok Shop launched in the US three years ago; shopping starts with discovery rather than search, though there were over 100 billion shopping-intent searches last year. Best Buy is launching soon with 10,000+ products.",
+      "Live selling has no time limit (unlike a 10-minute QVC slot), so founders can educate and entertain; Beachwaver has run 465 live streams since January 2024.",
+      "Community drives repeat purchase and product ideas: hundreds of Beachwaver customers have ordered 30+ times, and a cow-print design requested by the community was its fastest sellout.",
+      "Advice: big brands should keep brand principles but be flexible in execution and give creators freedom; be consistent, since TikTok Shop is an always-on channel, not a one-off viral moment."
+    ],
+    "transcript_note": "The recording starts partway through the moderator's introduction.",
+    "speakers_note": "Sarah (Beachwaver) is from the recording, not the agenda listing; surname as commonly spelled for the Beachwaver founder, to confirm."
+  },
+  {
+    "date": "2026-09-30",
+    "start": "16:15",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Lowe's: How AI Agents Elevate the Customer Journey",
+    "speakers": [
+      {
+        "name": "Gaurav Dixit",
+        "title": "",
+        "company": "Lowe's"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null
+  },
+  {
+    "date": "2026-10-01",
+    "start": "12:30",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Lowe's and Walmart: Driving Loyalty Via Omnichannel Convenience",
+    "speakers": [
+      {
+        "name": "Abhishek Nandi",
+        "title": "",
+        "company": "Lowe's"
+      },
+      {
+        "name": "Deepak Maini",
+        "title": "General Manager, Walmart+",
+        "company": "Walmart"
+      }
+    ],
     "moderators": [],
     "sponsors": [],
     "transcript": {
-      "raw": "shoptalk/raw/unmatched_live_social_commerce.txt"
+      "raw": "shoptalk/raw/unmatched_loyalty_panel.txt"
     },
     "takeaways": [
-      "Patches brand: educate, educate, educate; test products for one to three months and drop what doesn't work; live streams run up to 8 hours a day in the US, and high-energy, urgent selling worked better in the US than the UK.",
-      "QVC treats TikTok as a discovery enabler, not a competitor: a separate start-up-style team, TikTok-only hosts and five TikTok studios brought about 1 million new customers in 2025; launched a TikTok-exclusive apparel brand.",
-      "Canvas Beauty: people buy into a movement, not a product; sell aspiration; owning manufacturing allows a 14-day concept-to-launch turnaround; set a record with a $2.6 million TikTok live.",
-      "Common advice: be authentic and consistent, test relentlessly, and be brand-authentic but platform-native."
-    ]
+      "Loyalty programs are getting more spend but less engagement: about half of points are never redeemed and many members want to leave; experiences now beat financial rewards as the reason to join.",
+      "Walmart+ ($98/year, over a dozen benefits) aims to be an “essential membership” rather than a points program; members shop 3x more often and spend 4x more than non-members.",
+      "Walmart+ prioritises high-uncertainty, high-reward experiments and uses early proxy metrics (benefit activation, using several benefits early) to predict retention.",
+      "The UPS Store: customer experience never exceeds that of the people delivering it; RFID tracking was rolled out to remove friction, not to chase technology.",
+      "Use counter-metrics so optimising one KPI doesn't damage the wider experience."
+    ],
+    "transcript_note": "Audio for parts of the third panelist's answers is unclear.",
+    "speakers_note": "The recording also has the President of The UPS Store (first name Brad) and a female moderator, not in the agenda listing. Abhishek Nandi is likely the panelist who discusses Pro vs DIY customers."
   },
   {
-    "date": null,
-    "start": null,
+    "date": "2026-10-01",
+    "start": "12:30",
     "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Commerce platform and conversion rate talk (Brian Gillespie)",
-    "title_note": "Not yet matched to an agenda session. Short talk by Brian Gillespie (company not stated in the recording); the recording starts partway through.",
-    "speakers": [],
+    "stage": "Brand Storytelling Stage",
+    "title": "Michaels: Designing Immersive and Experiential Stores",
+    "speakers": [
+      {
+        "name": "Heather Bennett",
+        "title": "",
+        "company": "Michaels"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with Lowe's and Walmart (12:30 PM); a transcript was received for Lowe's and Walmart."
+  },
+  {
+    "date": "2026-10-01",
+    "start": "13:20",
+    "end": null,
+    "stage": "Retail Excellence Stage",
+    "title": "Kohl's and Best Buy: The Store-Ecommerce Growth Connection",
+    "speakers": [
+      {
+        "name": "Arianne Parisi",
+        "title": "",
+        "company": "Kohl's"
+      },
+      {
+        "name": "Luke Motschenbacher",
+        "title": "",
+        "company": "Best Buy"
+      }
+    ],
+    "moderators": [],
+    "sponsors": [],
+    "transcript": null,
+    "title_note": "Clashes with DoorDash (1:20 PM); a transcript was received for DoorDash."
+  },
+  {
+    "date": "2026-10-01",
+    "start": "13:20",
+    "end": null,
+    "stage": "Shopper Motivation Stage",
+    "title": "DoorDash: Fulfillment and Delivery",
+    "speakers": [
+      {
+        "name": "Thomas Stephens",
+        "title": "General Manager, Retail",
+        "company": "DoorDash"
+      }
+    ],
     "moderators": [],
     "sponsors": [],
     "transcript": {
-      "raw": "shoptalk/raw/unmatched_brian_gillespie_talk.txt"
+      "raw": "shoptalk/raw/unmatched_fulfillment_promise_panel.txt"
     },
     "takeaways": [
-      "Replatforming every few years rarely fixes the real problems, which are usually processes and data.",
-      "Conversion rate is a misleading hero metric: cutting top-of-funnel traffic can raise it while hurting long-term health, and B2B buyers visit many times before buying.",
-      "AI agents don't respond to countdown timers or homepage merchandising; they check inventory and price, so sites must work for bots without a storefront."
-    ]
+      "Moderator's framing: design beats spend; treat inventory placement as a strategy; close the gap between the delivery promise made and what is actually delivered.",
+      "Retailers already stock the best SKUs for their market, so DoorDash puts items in its own fulfilment nodes mainly for late-night demand or fast movers that stores struggle to keep in stock.",
+      "The bedding brand plans capacity from 30-day trailing order concentration and saturates target markets (e.g. Phoenix); its oversized boxes make shipping costly, so pricing is built around that.",
+      "Automate only once a process is proven and tied to a real customer problem; go high-touch first to learn where the pain is. DoorDash has launched drone delivery with Lowe's in Charlotte.",
+      "Align marketing promises with actual operations: DoorDash sets advertised delivery times each quarter from real delivery data; the bedding brand uses NPS as its shared north star.",
+      "Advice: stop copying competitors, and stop communicating with customers the way you used to."
+    ],
+    "transcript_note": "Assembled from two pastes: the opening of the session, then a gap, then the remainder. Song lyrics picked up after the session ended were removed.",
+    "speakers_note": "The recording also has Dylan (bedding brand transcribed as “Mansutan”) as a panelist and a fulfilment-tech co-founder as moderator; full names not in the agenda listing."
   },
   {
     "date": null,
@@ -151,112 +557,6 @@
       "AI referrals grew 376% since January 2025 (about 2–3% of traffic); impact is highest in beauty and personal care (47%) and lowest in soft drinks; AI rewards the brand that best answers the shopper's question.",
       "Friends and family remain the most trusted source (65%); communities increasingly shape demand.",
       "Table answers: Dollar Tree's multi-price strategy attracts higher-income shoppers; brands must serve both core and new customers."
-    ]
-  },
-  {
-    "date": null,
-    "start": null,
-    "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Agentic commerce fireside chat (Anthropic)",
-    "title_note": "Not yet matched to an agenda session. Interview with an Anthropic speaker on Claude and agentic commerce; names unclear in the recording.",
-    "speakers": [],
-    "moderators": [],
-    "sponsors": [],
-    "transcript": {
-      "raw": "shoptalk/raw/unmatched_anthropic_agentic_commerce.txt"
-    },
-    "takeaways": [
-      "Three modalities of agentic commerce: discovery on Claude (without owning checkout), Claude agents purchasing on merchant sites, and merchants' own agents.",
-      "Trust rests on privacy, accuracy and being unbiased; Anthropic says there is no advertising and no paid ranking in Claude.",
-      "To be surfaced: allow agents via robots.txt and your CDN, keep product data in HTML with full descriptions and prices, and keep it current.",
-      "Claude Commerce Agent, an open-source reference for merchant agents, was launched this month; merchants report about 35% larger carts and 60% higher conversion. Smaller models suit most use cases."
-    ]
-  },
-  {
-    "date": null,
-    "start": null,
-    "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Amazon Prime fireside chat",
-    "title_note": "Not yet matched to an agenda session. Interview with Jameel (surname transcribed as Gani), who leads Amazon Prime worldwide; interviewer not named in the recording.",
-    "speakers": [],
-    "moderators": [],
-    "sponsors": [],
-    "transcript": {
-      "raw": "shoptalk/raw/unmatched_amazon_prime.txt"
-    },
-    "takeaways": [
-      "Prime has over 200 million paid members in 27 countries; it is a paid membership, not a loyalty program or a loss leader, and every unit shipped must be contribution-profit accretive.",
-      "Grocery and everyday essentials: perishable customers up 50% and same/next-day items up 40% in the first half of the year; the fastest speeds have the lowest cost to serve.",
-      "Price has barely risen: $79 in 2005 would be $133 adjusted for inflation versus $139 today, for far more selection and speed.",
-      "Advice: show loyalty to the customer from day one, and never build a business model on breakage."
-    ],
-    "transcript_note": "The recording starts partway through the introduction."
-  },
-  {
-    "date": null,
-    "start": null,
-    "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Agentic commerce session (AWS, Anthropic, Coresight Research)",
-    "title_note": "Not yet matched to an agenda session. A presentation by Justin (AWS, retail and consumer goods), a presentation by Marina (heads partnerships at Anthropic; name partly unclear), then a panel moderated by Deborah Weinswig (Founder & CEO, Coresight Research).",
-    "speakers": [],
-    "moderators": [],
-    "sponsors": [],
-    "transcript": {
-      "raw": "shoptalk/raw/unmatched_aws_anthropic_coresight.txt"
-    },
-    "takeaways": [
-      "AWS: most retailers are still held back by fragmented data (multiple ERPs, separate commerce systems); agentic AI is already live at Amazon in Rufus/Alexa for Shopping, Buy for Me, advertising and the internal tool Amazon Quick.",
-      "Anthropic: three modalities of agentic commerce; the open-source Claude Commerce Agent covers consumer-facing, merchandising and supply-chain agents, with about 35% larger carts and 60% higher conversion reported.",
-      "Coresight: a 75% increase in agentic build for commerce in the last 90 days; AI leadership roles are increasingly reporting to the CEO.",
-      "Retailer concerns from the AI council: connecting stores and e-commerce, proving the value of AI, supply chain, cybersecurity and change management; many retailers are hiring, not cutting.",
-      "Advice: ask to see AI working with real customers, invest in change management, and keep the customer at the centre."
-    ],
-    "transcript_note": "The recording starts partway through the opening introductions."
-  },
-  {
-    "date": null,
-    "start": null,
-    "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Opening remarks",
-    "title_note": "Not yet matched to an agenda session. Welcome by Zia Daniell Wigder, Co-Founder, Groceryshop/Shoptalk (title as on the Groceryshop app).",
-    "speakers": [],
-    "moderators": [],
-    "sponsors": [],
-    "transcript": {
-      "raw": "shoptalk/raw/unmatched_opening_remarks.txt"
-    },
-    "takeaways": [
-      "First time a US Shoptalk event has moved location: from Chicago to Nashville.",
-      "Shoptalk Fall is designed to be intimate and interactive and is used to test new formats: a B2B track, hands-on sessions (e.g. AI literacy to live agents in 45 minutes), ask-me-anything sessions, town halls and a Gen Z/Gen Alpha teen panel."
-    ]
-  },
-  {
-    "date": null,
-    "start": null,
-    "end": null,
-    "stage": null,
-    "unmatched": true,
-    "title": "Unmatched: Estée Lauder Companies keynote",
-    "title_note": "Not yet matched to an agenda session. Tara Simon, President of the Americas, and Lisa Sequino, President of MAC (title transcribed as “President of Makeup Bluster”), The Estée Lauder Companies; interviewed by Jessica Matlin, founder and host of Fat Mascara (names as introduced on stage).",
-    "speakers": [],
-    "moderators": [],
-    "sponsors": [],
-    "transcript": {
-      "raw": "shoptalk/raw/unmatched_estee_lauder.txt"
-    },
-    "takeaways": [
-      "MAC launched at Sephora in nine months instead of the usual 18–24 by throwing out the rule book; the launch was treated as a cultural moment (campaign by Nicola Formichetti, a fast-turnaround billboard in Times Square).",
-      "ELC is now on Amazon and TikTok Shop; channels feed each other (e.g. a TikTok Shop Super Brand Day for Clinique Black Honey lifted sales at Ulta and Amazon within hours).",
-      "Brand equity and reach aren't mutually exclusive: keep brand codes but be flexible per channel; Kilian Paris's $150 cocktails collection sold out on Sephora.com in 72 hours.",
-      "Leadership: challenger mindset, speed without asking permission, being direct, and “phone a friend” — nobody has all the answers."
     ]
   }
 ]

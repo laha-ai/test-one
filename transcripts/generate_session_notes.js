@@ -37,15 +37,15 @@ function fmtTime(hhmm) {
   return `${h % 12 || 12}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
 }
 
-const fmtSlot = (s) => (s.start ? `${fmtTime(s.start)} – ${fmtTime(s.end)}${EVENT.tz ? " " + EVENT.tz : ""}` : "TBC");
+const fmtSlot = (s) => (s.start ? `${fmtTime(s.start)}${s.end ? " – " + fmtTime(s.end) : ""}${EVENT.tz ? " " + EVENT.tz : ""}` : "TBC");
 
 // Sessions in time order; sessions without a date go last, in file order.
 function sortSessions(list) {
   return list
     .map((s, i) => ({ s, i }))
     .sort((a, b) => {
-      const ka = a.s.date ? `${a.s.date} ${a.s.start}` : "~";
-      const kb = b.s.date ? `${b.s.date} ${b.s.start}` : "~";
+      const ka = a.s.date ? `${a.s.date} ${a.s.start || ""}` : "~";
+      const kb = b.s.date ? `${b.s.date} ${b.s.start || ""}` : "~";
       return ka < kb ? -1 : ka > kb ? 1 : a.i - b.i;
     })
     .map((x) => x.s);
